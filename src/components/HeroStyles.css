@@ -1,0 +1,103 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-txt {
+    position: absolute;
+    top: 50%; /* Adjusted to better center the content */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.hero-txt h1 {
+    font-size: 5.5rem;
+    font-weight: 800;
+    background: whitesmoke;
+    border: #222;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    margin-bottom: -1rem; /* Slightly smaller gap */
+}
+
+.hero-txt p {
+    font-size: 3.5rem; /* Adjusted for consistency */
+    color: #fff;
+    padding: 0.5rem 0; /* Removed unnecessary padding */
+    margin-bottom: 1.5rem; /* Consistent spacing below paragraph */
+}
+
+.hero-txt .show {
+    text-decoration: none;
+    background: #fff;
+    padding: 1.2rem 2.5rem; /* Smaller padding for balanced button size */
+    border-radius: 45px;
+    font-size: 2rem; /* Unified font size */
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #222;
+    margin-top: 1rem; /* Smaller margin for tighter layout */
+}
+
+.hero-txt .show:hover {
+    background: #222;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 555px) {
+    .hero-txt h1 {
+        font-size: 2rem;
+        padding: 0; /* Removed padding */
+        margin-bottom: 1rem; /* Adjusted margin */
+    }
+
+    .hero-txt p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-txt .show {
+        padding: 0.6rem 1rem;
+        border-radius: 30px; /* Slightly smaller radius */
+        font-size: 0.9rem; /* Slightly smaller font size */
+        margin-top: 1rem;
+    }
+}
+
+.hero1{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.hero-txt1 h1 {
+    font-size: 5.5rem;
+    font-weight: 800;
+    background: white;
+    border: #222;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    margin-bottom: -1rem; /* Slightly smaller gap */
+}
+
+.hero-txt1 {
+    position: absolute;
+    top: 50%; /* Adjusted to better center the content */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
