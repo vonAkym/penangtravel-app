@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/penangtravel-app/static/css/main.d0d64c6c.css",
-    "main.js": "/penangtravel-app/static/js/main.a24efd7d.js",
+    "main.css": "/penangtravel-app/static/css/main.d6353fa2.css",
+    "main.js": "/penangtravel-app/static/js/main.01406330.js",
     "static/media/laksa penang.png": "/penangtravel-app/static/media/laksa penang.09146778f201fa210d0b.png",
     "static/media/nasi kandar.png": "/penangtravel-app/static/media/nasi kandar.1739dd71e4d02e9d2c96.png",
     "static/media/penang2.jpg": "/penangtravel-app/static/media/penang2.6081a6a8457bf087150f.jpg",
@@ -11,23 +11,35 @@
     "static/media/night.jpg": "/penangtravel-app/static/media/night.4c0619643a19cc680ecc.jpg",
     "static/media/hotspot.jpg": "/penangtravel-app/static/media/hotspot.6c71b6980f5d76232d2d.jpg",
     "static/media/hotel.jpg": "/penangtravel-app/static/media/hotel.dc3c27e0bc42b8ef113a.jpg",
+    "static/media/macallister2.jpg": "/penangtravel-app/static/media/macallister2.4ee237a31436fa73b049.jpg",
+    "static/media/shangrila.jpg": "/penangtravel-app/static/media/shangrila.99854e2829bacdb6734a.jpg",
+    "static/media/hardrock.jpg": "/penangtravel-app/static/media/hardrock.4b2c1ddaf516a7ec932b.jpg",
+    "static/media/shangri.jpg": "/penangtravel-app/static/media/shangri.a226ee2b0caa5c9261bf.jpg",
     "static/media/event3.jpg": "/penangtravel-app/static/media/event3.f76537064b018729eb03.jpg",
+    "static/media/marriot.jpeg": "/penangtravel-app/static/media/marriot.d529ed5c27e9458a86f8.jpeg",
     "static/media/usm2.jpeg": "/penangtravel-app/static/media/usm2.5c47fd813a00ec3f1880.jpeg",
+    "static/media/hard2.jpg": "/penangtravel-app/static/media/hard2.13a887785b55799b6105.jpg",
     "static/media/event1.jpeg": "/penangtravel-app/static/media/event1.2fbc7a6ca56f70a64d0f.jpeg",
+    "static/media/seventerraces.jpg": "/penangtravel-app/static/media/seventerraces.94da342dc1daf63c421a.jpg",
     "static/media/pasembur2.jpg": "/penangtravel-app/static/media/pasembur2.8ebd6a1683cf650a6cb2.jpg",
+    "static/media/ghotel.jpg": "/penangtravel-app/static/media/ghotel.7eee17db142ddaedfa2e.jpg",
     "static/media/event2.jpg": "/penangtravel-app/static/media/event2.b0c3dad5d8db1814a964.jpg",
     "static/media/pasembur.jpg": "/penangtravel-app/static/media/pasembur.1976fd88245c18d3feff.jpg",
+    "static/media/gurney2.jpeg": "/penangtravel-app/static/media/gurney2.f79014e06c186b16516a.jpeg",
     "static/media/bridges2.jpeg": "/penangtravel-app/static/media/bridges2.e7e17cb3f87a7e06124a.jpeg",
     "static/media/bridges1.jpeg": "/penangtravel-app/static/media/bridges1.72d84692a2fe548a9d54.jpeg",
+    "static/media/marriot2.jpg": "/penangtravel-app/static/media/marriot2.513217bdab7a9218c09b.jpg",
     "static/media/hotel2.jpg": "/penangtravel-app/static/media/hotel2.ea0f3e2943d800759f47.jpg",
+    "static/media/seven.jpg": "/penangtravel-app/static/media/seven.5b3fafac34c9342af2a8.jpg",
+    "static/media/macallister.jpg": "/penangtravel-app/static/media/macallister.4f6816cca57449cb5f2d.jpg",
     "static/media/hotel1.jpg": "/penangtravel-app/static/media/hotel1.e1f3ae1c2721a974f1b3.jpg",
     "static/media/usm1.jpeg": "/penangtravel-app/static/media/usm1.3ff53f6b6614311b7a04.jpeg",
     "index.html": "/penangtravel-app/index.html",
-    "main.d0d64c6c.css.map": "/penangtravel-app/static/css/main.d0d64c6c.css.map",
-    "main.a24efd7d.js.map": "/penangtravel-app/static/js/main.a24efd7d.js.map"
+    "main.d6353fa2.css.map": "/penangtravel-app/static/css/main.d6353fa2.css.map",
+    "main.01406330.js.map": "/penangtravel-app/static/js/main.01406330.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0d64c6c.css",
-    "static/js/main.a24efd7d.js"
+    "static/css/main.d6353fa2.css",
+    "static/js/main.01406330.js"
   ]
 }
