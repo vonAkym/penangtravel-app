@@ -3,7 +3,6 @@ import { Component } from "react";
 import { MenuItems } from "./MenuItem";
 import { Link } from "react-router-dom";
 
-
 class Navbar extends Component {
     state = { clicked: false };
 
@@ -14,7 +13,8 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="NavbarItems">
-                <h1 className="navbar-logo">PenangTravel</h1>
+                <h1 className="navbar-logo">PenangTravel.</h1>
+
 
                 <div className="menu-icons" onClick={this.handleClick}>
                     <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
@@ -24,14 +24,17 @@ class Navbar extends Component {
                     {MenuItems.map((item, index) => {
                         return (
                             <li key={index}>
-                                <Link className={item.cName} to={item.url}>
+                                <Link
+                                    className={item.cName}
+                                    to={item.url}
+                                    onClick={this.closeMenu} // Close menu on link click
+                                >
                                     <i className={item.icons}></i>
                                     {item.title}
                                 </Link>
                             </li>
                         );
                     })}
-                
                 </ul>
             </nav>
         );

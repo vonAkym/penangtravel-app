@@ -10,11 +10,9 @@ function Home (){
         <Navbar /> 
         <Hero 
         cName="hero"
-        title="Explore Favourite Places In Penang" 
-        text="Choose Interesting Places"
-        buttonText="Travel Plan"
-        url ="/looking"
-        btnClass="show"
+        title="Uncover Penang's Hidden Gems" 
+        text="Discover Unique Spots Worth Exploring"
+
         /> 
         <Destination />
         <Trip />

@@ -32,11 +32,10 @@ function TripFood() {
                             </p>
                         </>
                     }
-                    link="https://www.penanghill.gov.my/phf/"
                 />
 
                 <TripDataFood
-                    image={Food2}
+                    image={Food3}
                     heading="Cendol"
                     text={
                         <>
@@ -57,12 +56,11 @@ function TripFood() {
 </p>
 </>
                     }
-                    link="https://ecentral.my/cendol-penang"
                 />
 
                 <TripDataFood
-                    image={Food3}
-                    heading="Rojak"
+                    image={Food2}
+                    heading="Laksa"
                     text={<>
                     <p>
     Experience Laksa Penang's signature flavor—a bowl of authentic Malaysian street food delight! 🍜✨ The flavors of this delicious noodle soup—sweet, savory, umami, and spicy—are all expertly blended. Each spoonful is bursting with freshness thanks to the combination of spicy chili peppers, lemongrass, acidic tamarind, and delicate poached mackerel or sardines. Warming your spirit and leaving your taste buds wanting more, this is a true Penang staple! 🌶️🐟🌿
@@ -81,7 +79,6 @@ function TripFood() {
 </p>
 
                     </>}
-                    link="https://v2.checkpointspot.asia/event/rojak-penang"
                 />
             </div>
         </div>

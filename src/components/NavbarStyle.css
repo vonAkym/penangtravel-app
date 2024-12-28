@@ -11,11 +11,11 @@
     top: 20px;
     left: 50%;
     transform: translate(-50%);
-    z-index: 9999;
-    background-color: #fff; /* Add background to avoid transparency issues */
+    z-index: 100; /* Adjust z-index to make sure the navbar is on top */
+    background-color: #fff;
 }
 
-.navbar-logo{
+.navbar-logo {
     color: #222;
     font-size: 2rem;
     cursor: pointer;
@@ -38,7 +38,7 @@
     white-space: nowrap;
 }
 
-.nav-links i{
+.nav-links i {
     padding-right: 10px;
 }
 
@@ -49,13 +49,11 @@
     transition: all 0.2s ease-in-out;
 }
 
-
-.nav-links-mobile{
+.nav-links-mobile {
     display: none;
-
 }
 
-button{
+button {
     padding: 0.5rem 1rem;
     white-space: nowrap;
     border-radius: 0.3rem;
@@ -66,63 +64,63 @@ button{
     transition: 0.2 ease-in-out;
 }
 
-button:hover{
-    background-color: #151516 ;
+button:hover {
+    background-color: #151516;
     color: #fff;
 }
 
-.menu-icons{
+.menu-icons {
     display: none;
 }
 
-@media (max-width: 700px){
-    .NavbarItems{
+@media screen and (max-width: 850px) {
+    .NavbarItems {
         z-index: 99;
     }
-    .nav-menu{
+    
+    .nav-menu {
         display: flex;
         flex-direction: column;
-        justify-content: column;
+        justify-content: flex-start;
         background: #fff;
-        width: 50%;
+        width: 100%;
         height: auto;
         position: absolute;
         top: 0;
-        left: -100%;
-        opacity: 0;
-        align-items: start;
+        left: -100%; /* Hide the menu off-screen */
+        opacity: 0; /* Hide the menu visually */
+        align-items: stretch;
         padding: 80px 0 30px 0;
         margin: 0;
-        transition: 0.3s ease-in-out;
+        transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out;
         border-radius: 13px;
+        z-index: -1; /* Ensure it's on top */
     }
 
-    .nav-menu.active{
+    .nav-menu.active {
         left: 0;
         opacity: 1;
         z-index: -1;
-        transition: 0.3s ease-in-out;
     }
 
-    .nav-links{
+    .nav-links {
         display: block;
         width: 100%;
-        font-size: 12rem;
+        font-size: 1.5rem; /* Adjust size for mobile */
         padding: 2rem 0;
     }
 
-    .nav-links:hover{
-        background: #000 ; 
+    .nav-links:hover {
+        background: #000;
         transition: none;
     }
 
-    button{
+    button {
         display: none;
-
     }
 
-    .nav-links-mobile{
-        display: block;
+    .nav-links-mobile {
+        display: none;
         text-align: center;
         padding: 1.5rem;
         margin: auto;
@@ -136,13 +134,13 @@ button:hover{
         letter-spacing: 2px;
     }
 
-    .menu-icons{
+    .menu-icons {
         display: block;
         cursor: pointer;
     }
 
-    .menu-icons i{
-        font-size: 1.2 rem;
+    .menu-icons i {
+        font-size: 1.5rem;
         color: #222;
     }
 }

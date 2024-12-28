@@ -1,7 +1,6 @@
 import Navbar from "../components/Navbar";
 import Hero1 from "../components/HeroFood.js";
 import Footer from "../components/Footer.js";
-import Trip from "../components/Trip.js";
 import TripFood from "../components/TripFood.js";
 
 function Food (){

@@ -17,24 +17,24 @@ img {
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
+    z-index: 1;
 }
 
 .hero-txt h1 {
     font-size: 5.5rem;
     font-weight: 800;
-    background: whitesmoke;
-    border: #222;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+     color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
     
     margin-bottom: -1rem; /* Slightly smaller gap */
 }
 
 .hero-txt p {
-    font-size: 3.5rem; /* Adjusted for consistency */
-    color: #fff;
-    padding: 0.5rem 0; /* Removed unnecessary padding */
-    margin-bottom: 1.5rem; /* Consistent spacing below paragraph */
+    font-size: 3rem;
+    font-weight: 800;
+     color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    margin-bottom: -1rem; /* Slightly smaller gap */
 }
 
 .hero-txt .show {
@@ -45,7 +45,7 @@ img {
     font-size: 2rem; /* Unified font size */
     font-weight: bold;
     letter-spacing: 2px;
-    color: #222;
+    color: white;
     margin-top: 1rem; /* Smaller margin for tighter layout */
 }
 
@@ -66,6 +66,7 @@ img {
     .hero-txt p {
         font-size: 1rem;
         margin-bottom: 1rem;
+        color: white;
     }
 
     .hero-txt .show {
@@ -74,7 +75,7 @@ img {
         font-size: 0.9rem; /* Slightly smaller font size */
         margin-top: 1rem;
     }
-}
+
 
 .hero1{
     width: 100%;
@@ -83,7 +84,7 @@ img {
 }
 
 .hero-txt1 h1 {
-    font-size: 5.5rem;
+    font-size: 4.5rem;
     font-weight: 800;
     background: white;
     border: #222;
@@ -100,4 +101,6 @@ img {
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
+
+}
 }
