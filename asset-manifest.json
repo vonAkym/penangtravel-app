@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/penangtravel-app/static/css/main.8cf929cf.css",
-    "main.js": "/penangtravel-app/static/js/main.f33eb6ec.js",
+    "main.css": "/penangtravel-app/static/css/main.12a44500.css",
+    "main.js": "/penangtravel-app/static/js/main.d3aac4b9.js",
     "static/media/laksa penang.png": "/penangtravel-app/static/media/laksa penang.09146778f201fa210d0b.png",
     "static/media/nasi kandar.png": "/penangtravel-app/static/media/nasi kandar.1739dd71e4d02e9d2c96.png",
     "static/media/penang2.jpg": "/penangtravel-app/static/media/penang2.6081a6a8457bf087150f.jpg",
@@ -45,11 +45,11 @@
     "static/media/snake.jpg": "/penangtravel-app/static/media/snake.3229ebe898ea16fd00d8.jpg",
     "static/media/streetart.jpg": "/penangtravel-app/static/media/streetart.c9ec44b08b0760412e36.jpg",
     "index.html": "/penangtravel-app/index.html",
-    "main.8cf929cf.css.map": "/penangtravel-app/static/css/main.8cf929cf.css.map",
-    "main.f33eb6ec.js.map": "/penangtravel-app/static/js/main.f33eb6ec.js.map"
+    "main.12a44500.css.map": "/penangtravel-app/static/css/main.12a44500.css.map",
+    "main.d3aac4b9.js.map": "/penangtravel-app/static/js/main.d3aac4b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cf929cf.css",
-    "static/js/main.f33eb6ec.js"
+    "static/css/main.12a44500.css",
+    "static/js/main.d3aac4b9.js"
   ]
 }
