@@ -73,7 +73,41 @@ button:hover {
     display: none;
 }
 
-@media screen and (max-width: 850px) {
+.landscape-warning {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999; /* Ensure it is above all other elements */
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+   /* Show the warning in landscape mode */
+@media screen and (orientation: landscape) {
+    .landscape-warning {
+        display: flex; /* Show the warning */
+    }
+
+    /* Hide the actual content in landscape mode */
+    .NavbarItems,
+    .content {
+        display: none;
+    }
+}
+}
+
+
+
+@media screen and (max-width: 850px)  {
     .NavbarItems {
         z-index: 99;
     }
@@ -144,3 +178,4 @@ button:hover {
         color: #222;
     }
 }
+

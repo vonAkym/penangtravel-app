@@ -9,8 +9,7 @@ function Hotel (){
         <Navbar /> 
         <Hero2
         cName="hero1"
-        title="Top Hotels in Penang:
-             Where Comfort Meets Luxury!" 
+        title="Top Hotels in Penang: Where Comfort Meets Luxury!" 
         />
 
 

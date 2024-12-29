@@ -9,7 +9,7 @@ const Footer = () =>{
                 <p>This is your own memory!</p>
                 </div>
                 <div>
-                    <a href="/">
+                    <a href="/https://www.facebook.com/Yolo.Bonk">
                     <i className="fa-brands fa-facebook"></i>
                     </a>
 

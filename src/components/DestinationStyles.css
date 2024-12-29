@@ -104,7 +104,30 @@
     .image1 img{
         height: 250px;
     }
+}
 
+/* Additional styles for landscape orientation */
+@media screen and (max-width: 850px) and (orientation: landscape) {
+    .destination {
+        margin: 2rem 4rem; /* Increase side margins for wider view */
+    }
 
+    .first-des {
+        flex-direction: row; /* Restore row layout for landscape */
+        align-items: center;
+    }
 
+    .des-text {
+        width: 50%;
+        font-size: 1rem; /* Adjust font size for readability */
+    }
+
+    .image1 {
+        width: 100%; /* Restrict image width */
+        margin: 1rem ;
+    }
+
+    .image1 img {
+        height: 200px; /* Smaller height for landscape */
+    }
 }
