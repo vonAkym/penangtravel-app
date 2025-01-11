@@ -16,7 +16,7 @@ import HotSpot12 from "../components/img/entopia.jpg"
 function TripHotspot(){
     return(
         <div className="trip">
-            <h1>Recent Events!</h1>
+            <h1>Top Attractions!</h1>
             <h3>Wakeup your inner explorer.</h3>
             <div className="tripcard">
                 <TripDataHotspot
